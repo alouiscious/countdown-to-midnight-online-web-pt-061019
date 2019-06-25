@@ -1,4 +1,5 @@
 #write your code here
+puts "WELCOME TO COUNTDOWN\n"
 puts "Please enter an integer greater than zero."
 input = gets.chomp.to_i
 

@@ -5,7 +5,7 @@ puts "WELCOME TO COUNTDOWN\n"
 
 def countdown(input)
   while input.to_i > 0
-    puts '#{input} SECOND(S)!'
+    puts "#{input} SECOND(S)!"
     input -= 1
 
   end

@@ -1,5 +1,5 @@
 require_relative './spec_helper'
-require_relative '../countdown.rb'
+# require_relative '../countdown.rb'
 
 require 'benchmark'
 

@@ -5,7 +5,7 @@ puts "WELCOME TO COUNTDOWN\n"
 
 def countdown(input)
   while input.to_i >= 0
-    puts "#{input} SECOND(S)!\n"
+    puts '#{input} SECOND(S)!\n'
     input -= 1
 
   end
@@ -13,6 +13,7 @@ puts "HAPPY NEW YEAR!"
 end
 
 # same countdown with a one second timer
+
 def countdown_with_sleep(input)
   while input.to_i >= 0
     puts "#{input} SECOND(S)!\n"

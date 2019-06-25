@@ -1,7 +1,7 @@
 #write your code here
 puts "WELCOME TO COUNTDOWN\n"
-puts "Please enter an integer greater than zero."
-#input = gets.chomp
+# puts "Please enter an integer greater than zero."
+# input = gets.chomp
 
 def countdown(input)
   while input.to_i > 0

@@ -3,7 +3,7 @@ puts "WELCOME TO COUNTDOWN\n"
 # puts "Please enter an integer greater than zero."
 # input = gets.chomp
 
-def countdown(input)
+def countdown(10)
   while input.to_i >= 0
     puts "#{input} SECOND(S)!\n"
     input -= 1

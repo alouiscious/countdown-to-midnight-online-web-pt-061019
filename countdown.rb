@@ -5,7 +5,7 @@ def countdown(input)
     puts "#{input} SECOND(S)!"
     sleep(1.0)
     input.to_i -= 1
-    
+
   end
-  
+
 end

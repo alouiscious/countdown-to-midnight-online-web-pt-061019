@@ -4,7 +4,7 @@ puts "WELCOME TO COUNTDOWN\n"
 # input = gets.chomp
 
 def countdown(input)
-  while input.to_i > 0
+  while input.to_i >= 0
     puts "#{input} SECOND(S)!\n"
     input -= 1
 

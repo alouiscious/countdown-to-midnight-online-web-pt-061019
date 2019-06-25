@@ -13,7 +13,7 @@ puts "HAPPY NEW YEAR!"
 end
 
 # same countdown with a one second timer
-def countdown_with_sleep(input = 5)
+def countdown_with_sleep(input)
   while input.to_i > 0
     puts "#{input} SECOND(S)!"
     sleep(1.0)

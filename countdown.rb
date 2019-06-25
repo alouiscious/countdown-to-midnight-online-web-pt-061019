@@ -1,9 +1,11 @@
 #write your code here
+puts "Please enter an integer greater than zero."
+input = gets.chomp.to_i
 
 def countdown(input)
   while input > 0
     puts "#{input} SECOND(S)!"
-    input.to_i -= 1
+    input -= 1
 
   end
 
